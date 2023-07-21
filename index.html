@@ -1,0 +1,89 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    .heading {
+      font-family: Arial, sans-serif;
+      font-size: 36px;
+      text-align: center;
+      color: #333333;
+      background-color: #F8F8F8;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+      position: relative;
+    }
+    
+    .bus-icon {
+      position: absolute;
+      top: 50%;
+      left: -40px;
+      transform: translateY(-50%);
+      color: gray;
+      font-size: 40px;
+    }
+    
+    /* Styling for navigation bar */
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #333333;
+      overflow: hidden;
+    }
+    
+    /* Styling for navigation links */
+    .navbar a {
+      float: left;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    
+    /* Styling for active link */
+    .navbar a.active {
+      background-color: #808080;
+    }
+    
+    .content {
+      padding: 30px;
+      text-align: center;
+    }
+    
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px;
+      background-color: #333333;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="heading">
+    <i class="fas fa-bus bus-icon"></i>
+    <h1>WASALNY</h1>
+    <p>Your Trusted Driving Companion</p>
+  </div>
+  <div class="navbar">
+    <a class="active" href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#how-to">How To</a>
+    <a href="#sponsors">Sponsors</a>
+  </div>
+  <div class="content">
+    <h2>Welcome to Wasalny!</h2>
+    <p>Explore our services and find the best transportation options for your needs.</p>
+    <a class="button" href="#about">Learn More</a>
+    <a class="button" href="#how-to">Get Started</a>
+  </div>
+</body>
+</html>
